@@ -16,8 +16,6 @@ def Snapback(item_value, item_weight, bpCapacity):
     return dp[item][bpCapacity]
 
 
-
-
 if __name__ == "__main__":
     item_value = [60, 100, 120]
     item_weight = [10, 20, 30]
@@ -48,5 +46,3 @@ if __name__ == "__main__":
 # 物品重量 = [10, 20, 30]
 # 背包容量 = 50
 # 呼叫 0/1背包問題(物品價值, 物品重量, 背包容量)
-
-
