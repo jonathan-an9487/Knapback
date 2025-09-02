@@ -1,5 +1,5 @@
 import pandas as pd 
-def Snapback(item_value, item_weight, bpCapacity):
+def Knapback(item_value, item_weight, bpCapacity):
     item = len(item_value)
     dp = [[0 for _ in range(bpCapacity + 1)] for _ in range(item + 1)]
 
